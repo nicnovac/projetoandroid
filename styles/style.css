@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(../fonts/idroid.otf) format(opentype);
+}
+
+:root{
+    --color1: #ffffff;
+    --color2: #000000;
+    --color3: #95f0bec0;
+
+    --font-padrao: Arial, Helvetica, Verdana, sans-serif;
+    --font1: 'android';
+}
+
+body{
+    background-color: var(--color3);
+}
