@@ -5,15 +5,68 @@
     src: url(../fonts/idroid.otf) format(opentype);
 }
 
+@font-face {
+    font-family: 'astronomus';
+    src: url(../fonts/Astronomus.ttf) format(truetype);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 :root{
     --color1: #ffffff;
     --color2: #000000;
-    --color3: #95f0bec0;
+    --color3: #37A69B;
+    --color4: #F280E8;
+    --color5: #68F2E4;
+    --color6: #F2D250;
+    --color7: #A6923F;
+    --color8: #ecd98bd4;
 
     --font-padrao: Arial, Helvetica, Verdana, sans-serif;
     --font1: 'android';
+    --font2: 'astronomus';
 }
 
 body{
+    background-color: var(--color8);
+    font-family: var(--font-padrao);
+}
+
+header{
     background-color: var(--color3);
+}
+
+header h1{
+    font-family: var(--font2);
+    color: var(--color6);
+}
+
+header p{
+    color: var(--color1);
+}
+
+nav{
+    background-color: var(--color4);
+}
+
+main{
+    background-color: var(--color1);
+}
+
+main h1{
+    font-family: var(--font1);
+    color: var(--color7);
+}
+
+main h2{
+    font-family: var(--font1);
+    color: var(--color2);
+}
+
+footer{
+    background-color: var(--color3);
+    color: var(--color1);
 }
