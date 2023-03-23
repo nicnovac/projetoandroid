@@ -53,6 +53,9 @@ nav{
 }
 
 main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
     background-color: var(--color1);
 }
 
@@ -64,6 +67,10 @@ main h1{
 main h2{
     font-family: var(--font1);
     color: var(--color2);
+}
+
+main img{
+    width: 100%;
 }
 
 footer{
