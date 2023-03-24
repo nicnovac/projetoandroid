@@ -104,8 +104,8 @@ main h1{
 main h2{
     font-family: var(--font1);
     font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--color5), var(--color4));
-    color: var(--color6);
+    background-image: linear-gradient(to right, var(--color4), var(--color5));
+    color: var(--color2);
     border-radius: 2px;
     text-shadow: 2px 2px 0px var(--shadow1);
     text-indent: 8px;
@@ -125,7 +125,6 @@ main strong{
     font-weight: bold;
     background-image: linear-gradient(to bottom, var(--color5), var(--color3) );
     color: var(--color2);
-    border-radius: 5px;
 }
 
 main a{
@@ -134,7 +133,6 @@ main a{
     font-weight: bold;
     background-color: var(--color4);
     color: var(--color1);
-    border-radius: 5px;
     text-decoration: none;
 }
 
