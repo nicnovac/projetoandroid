@@ -200,6 +200,7 @@ aside ul{
 
 footer{
     padding: 5px;
+    font-family: var(--font1);
     font-size: 0.8em;
     background-color: var(--color3);
     color: var(--color1);
